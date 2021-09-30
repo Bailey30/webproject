@@ -4,7 +4,6 @@
 
 .backgroundimage{
     background-image: url(images/johns.jpg);
-    
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -14,28 +13,13 @@
     width: 100%;
     bottom: 00px;
     margin: 0px;
-    padding:0px
-    
+    padding:0px 
 }
-/* .backgroundimage{
-height: 100vh;
-
-background:url(images/johns.jpg)no repeat 0 0 fixed;
-
-
-right: 50px;
-} */
-
-
-
-
 
 body {
     margin:0;
     padding:0;
 }
-
-
 
 .backgroundcolor{
     background-color: rgb(255, 253, 250);
@@ -48,65 +32,34 @@ body {
     bottom: 0px;
     margin: 0;
 }
-/* .right {
-    padding-top: 30px;
-    position: absolute;
-    right: 0px;
-    padding-bottom: 100px;
-    padding-left: 100px;
-    
-    
-} */
-
-
-
-/* .left {
-    position: absolute;
-    left: 0px;
-    width: 780px;
-    
-    padding-bottom: 100px;
-    padding-left: 40px;
-    padding-right: 20px; */
-    
-/* } */
 
 * {
     box-sizing: border-box;
 }
 
 
-
 .menuflex{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    
     justify-content: space-evenly;
-    
     align-content: flex-start;
     width: 100%;
-
 }
 
 .menuflex2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    
     justify-content: flex-start;
-    
     align-content: flex-start;
     width: 100%;
-
 }
 
 
 .photo1 {
-    
     width: 600px;
     height: auto;
-    
     padding-right: 30px;
 }
 .photo2 {
@@ -114,29 +67,23 @@ body {
     position: relative;
     width: auto;
     height: 570px;
-    margin: 0px;
-    
-    
-
+    margin: 0px;  
 }
+
 .menu0 {
     width: 250px;
     padding-left: 80px;
     color: rgb(79, 21, 21);
-    font-size: 17px;
-    
+    font-size: 17px;   
     margin: 10px;
-
-
 }
+
 .menu1 {
     width: 250px;
     padding-right: 50px;
     color: rgb(79, 21, 21);
-    font-size: 17px;
-    
+    font-size: 17px;   
     margin: 10px;
-
 }
 
 
@@ -146,8 +93,7 @@ body {
     width: 300px;
     padding-right: 30px;
     color: rgb(79, 21, 21);
-    font-size: 17px;
-    
+    font-size: 17px;    
     margin: 10px;
 }
 
@@ -163,11 +109,10 @@ body {
     border-top: 10px;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    padding-left: 40px;
-    
-    text-align: center;
-   
+    padding-left: 40px;   
+    text-align: center;   
 }
+
 .button:hover{
     background-color:#fdbdfd;
 }
@@ -203,6 +148,7 @@ body {
 .menubutton:hover{
     background-color:#fdbdfd;
 }
+
 .menubutton:visited{
     color: inherit;
 }
@@ -211,17 +157,16 @@ body {
 {
     text-decoration: none;
 }
+
 .info {
     padding-left: 20px;
     padding-right: 20px;
     color: floralwhite;
     justify-content: space-evenly;
     text-align: center;
-    
-
 }
-.infowrapper {
-    
+
+.infowrapper {  
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -240,39 +185,27 @@ body {
 
 .menutop{
     display: flex; 
-    flex-direction: row;justify-content: center;
-    
+    flex-direction: row;
+    justify-content: center;
     padding-top: 10px;
 }
 
 
-.menulogo{
-    
-     
-    /* flex-direction: row; */
-    
+.menulogo{   
     height: 100px;
     width: auto;
-   
     padding-right: 70px;
     padding-left: 175px;
-    
     flex: 4;
-
 }
+
 .wrapper{
     text-decoration: none;
     padding-top: 30px;
     width: 10vw;
     height: 5vh;
     color:rgb(62, 59, 27)
-    
-    /* align-items: center;
-    justify-content: center;  */
-    
-    
-    
-  }
+}
     
 .inline{
     
@@ -281,8 +214,7 @@ body {
     height: 20px;
     margin-inline: 50px;
     margin-right: 100px;
-    margin-left: 45px;
-   
+    margin-left: 45px;  
 }
 
 
