@@ -1,0 +1,362 @@
+/* This is my first style sheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.backgroundimage{
+    background-image: url(images/johns.jpg);
+    
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    bottom: 00px;
+    margin: 0px;
+    padding:0px
+    align-items: center;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+
+
+.backgroundcolor{
+    background-color: rgb(255, 253, 250);
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    bottom: 0px;
+    margin: 0;
+}
+/* .right {
+    padding-top: 30px;
+    position: absolute;
+    right: 0px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    
+    
+} */
+
+
+
+/* .left {
+    position: absolute;
+    left: 0px;
+    width: 780px;
+    
+    padding-bottom: 100px;
+    padding-left: 40px;
+    padding-right: 20px; */
+    
+/* } */
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.menuflex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    justify-content: space-evenly;
+    
+    align-content: flex-start;
+    width: 100%;
+
+}
+
+.menuflex2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    justify-content: flex-start;
+    
+    align-content: flex-start;
+    width: 100%;
+
+}
+
+
+.photo1 {
+    
+    width: 600px;
+    height: auto;
+    
+    padding-right: 30px;
+}
+.photo2 {
+    padding-left: 30px;
+    position: relative;
+    width: auto;
+    height: 570px;
+    margin: 0px;
+    
+    
+
+}
+.menu0 {
+    width: 250px;
+    padding-left: 80px;
+    color: rgb(79, 21, 21);
+    font-size: 17px;
+    
+    margin: 10px;
+
+
+}
+.menu1 {
+    width: 250px;
+    padding-right: 50px;
+    color: rgb(79, 21, 21);
+    font-size: 17px;
+    
+    margin: 10px;
+
+}
+
+
+
+
+.menu2 {
+    width: 300px;
+    padding-right: 30px;
+    color: rgb(79, 21, 21);
+    font-size: 17px;
+    
+    margin: 10px;
+}
+
+
+.button{
+    padding: 5px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #ffd5ff;
+    border-top: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-left: 40px;
+    
+    text-align: center;
+   
+}
+.button:hover{
+    background-color:#fdbdfd;
+}
+
+.button:visited{
+    background-color: inherit;
+}
+
+.buttonwrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1px;
+    height: 20px;
+}    
+
+.menubutton{ 
+    padding: 5px;
+    padding-right: 55px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 40px;
+    background-color: #ffd5ff;
+    border-top: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-left: 55px;
+    text-align: center;
+}
+
+.menubutton:hover{
+    background-color:#fdbdfd;
+}
+.menubutton:visited{
+    color: inherit;
+}
+
+ a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+.info {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: floralwhite;
+    justify-content: space-evenly;
+    text-align: center;
+    
+
+}
+.infowrapper {
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: auto;
+    padding-top: 70px;
+}
+
+.logo {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    padding-top: 43px;
+}
+
+.menutop{
+    display: flex; 
+    flex-direction: row;justify-content: center;
+    
+    padding-top: 10px;
+}
+
+
+.menulogo{
+    
+     
+    /* flex-direction: row; */
+    
+    height: 100px;
+    width: auto;
+   
+    padding-right: 70px;
+    padding-left: 175px;
+    
+    flex: 4;
+
+}
+.wrapper{
+    text-decoration: none;
+    padding-top: 30px;
+    width: 10vw;
+    height: 5vh;
+    color:rgb(62, 59, 27)
+    
+    /* align-items: center;
+    justify-content: center;  */
+    
+    
+    
+  }
+    
+.inline{
+    
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin-inline: 50px;
+    margin-right: 100px;
+    margin-left: 45px;
+   
+}
+
+
+.centre {
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.bottom {
+        position:absolute;
+         left:0px;
+         bottom: 10px;
+         height:10px;
+         width:100%;
+        
+        }
+
+
+
+/* Contact form */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #ffd5ff;
+    color: rgb(79, 21, 21);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #fdbdfd;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    position: absolute;
+    border-radius: 25px;
+    width: 630px;
+    padding: 20px;
+    padding-top: 0px;
+    justify-content: safe;
+    padding-left: 50px;
+    
+    
+  }
+.color{
+    color:rgb(79, 21, 21); 
+}
+
+.contact{
+    
+    align-items: flex-start;
+    padding-top: 0;
+    padding-left: 275px;
+
+    padding-bottom: 20px;
+    margin: 0px;
+
+}
+
+
+* { 
+    font-family: 'Oswald', sans-serif;;
+    /* background-color: rgb(255, 255, 255); */
+/* 
+    background-image: url(images/johns.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    text-align: center; */
+    /* color:rgb(86, 21, 21) */
+}
+/* asterisk is universal selector */
