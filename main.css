@@ -15,8 +15,20 @@
     bottom: 00px;
     margin: 0px;
     padding:0px
-    align-items: center;
+    
 }
+/* .backgroundimage{
+height: 100vh;
+
+background:url(images/johns.jpg)no repeat 0 0 fixed;
+
+
+right: 50px;
+} */
+
+
+
+
 
 body {
     margin:0;
